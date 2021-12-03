@@ -1,0 +1,62 @@
+@import "./secondary-button";
+
+.workshop-main {
+    inline-size: 100%;
+    margin-block: 70px;
+}
+
+.workshop-main__title {
+    inline-size: 90%;
+    max-inline-size: 1280px;
+    margin: 0 auto 38px;
+    font-size: $font-size-lg2;
+    color: $color-textsecund;
+    text-align: center;
+}
+
+.workshop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    inline-size: 90%;
+    max-inline-size: 1280px;
+    margin: 0 auto;
+}
+
+.workshop {
+    inline-size: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-image: url(../../assets/background-card.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-block-start: 32px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.workshop-info {
+    inline-size: 100%;
+    block-size: 50%;
+    padding: 20px;
+    background-color: rgba($color-background-light, 0.7);
+}
+
+.workshop-info__title {
+    font-size: $font-size-lg2;
+    color: $color-textprimary;
+    margin-block-end: 8px;
+}
+
+.workshop-info__desc {
+    font-size: $font-size-md;
+    line-height: 1.5;
+    color: $color-textprimary;
+    margin-block-end: 12px;
+}
+
+.workshop-info__btn {
+    display: inline-block;
+    padding: 8px 12px;
+}

@@ -1,0 +1,15 @@
+.workshop-main__title {
+    font-size: $font-size-xl;
+}
+
+.workshop-container {
+    justify-content: space-between;
+}
+
+.workshop {
+    max-inline-size: 30%;
+    transition: transform 1s;
+}
+.workshop:hover {
+    transform: scale(1.1);
+}

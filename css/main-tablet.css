@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar__logo-img {
+  inline-size: 170px;
+}
+
+.list-contact__item {
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+}
+
+.list-contact__item-link {
+  font-size: 3rem;
+}
+
+.name-project {
+  font-size: 6rem;
+}
+
+.course {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px;
+}
+
+.course__img {
+  inline-size: 300px;
+}
+
+.course-info {
+  text-align: start;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-start: 16px;
+          margin-inline-start: 16px;
+}
+
+.course-info__name {
+  font-size: 4rem;
+}
+
+.course-info__teac {
+  font-size: 1.6rem;
+}
+
+.course-info__desc {
+  font-size: 1.8rem;
+}
+
+.course-info__btn {
+  font-size: 2.4rem;
+}
+
+.workshop-main__title {
+  font-size: 4rem;
+}
+
+.workshop-container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.workshop {
+  max-inline-size: 30%;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.workshop:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}

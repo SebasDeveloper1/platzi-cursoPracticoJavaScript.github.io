@@ -2,15 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figuras geométricas | curso Practico JavaScript</title>
 </head>
 
 <body>
-    <h1 class="title">Figuras geométricas</h1>
-    <script src="./figuras.js"></script>
+    <header>
+        <h1 class="header__title">Caluladora de figuras geométricas</h1>
+        <p class="header__subtitle">
+            Este es el primer taller del curso practico de JavaScript
+        </p>
+    </header>
+    <main>
+        <section class="options-container">
+            <article class="option-container">
+                <div class="option-head">
+                    <h2 class="option__title">Cuadrado</h2>
+                    <img src="/" alt="Square icon" class="option__icon">
+                </div>
+                <form action="/" class="option__form">
+                    <p class="option__form-title">Ingrese la medida de los lados del
+                        cuadrado</p>
+                    <label for="inputSquare" class="option__form-label">Lado</label>
+                    <input id="inputSquare" type="number" class="option__form-input" placeholder="Lado del cuadrado" />
+                    <button onclick="calculateSquarePerimeter()" type="button"
+                        class="option__form-button button-primary">
+                        Calcular el perímetro del cuadrado
+                    </button>
+                    <button onclick="calculateSquareArea()" type="button" class="option__form-button button-secondary">
+                        Calcular el área del cuadrado
+                    </button>
+                    <p id="squareResult" class="option__form-result"></p>
+                </form>
+            </article>
+        </section>
+    </main>
+    <script src="./js/figurasFunciones.js"></script>
 </body>
 
 </html>

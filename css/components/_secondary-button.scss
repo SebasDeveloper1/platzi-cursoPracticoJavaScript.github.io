@@ -1,0 +1,15 @@
+.secondary__button {
+    padding: 12px;
+    font-size: $font-size-md;
+    font-weight: 500;
+    color: $color-textprimary;
+    text-align: center;
+    border-radius: 32px;
+    background-color: $color-secondary;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.secondary__button:hover {
+    background-color: $color-secoundary-border;
+}

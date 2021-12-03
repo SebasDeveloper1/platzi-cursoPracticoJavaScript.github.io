@@ -1,0 +1,28 @@
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    inline-size: 100%;
+    padding: 32px 0;
+    background-color: $color-back-button-secondary;
+}
+
+.footer__logo {
+    inline-size: 50px;
+    margin-block-end: 12px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer__text {
+    font-size: $font-size-lg;
+    line-height: 1.5;
+    color: $color-textprimary;
+}
+
+.footer__text span {
+    font-size: $font-size-lg;
+    color: $color-primary;
+    text-transform: uppercase;
+}

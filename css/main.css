@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  inline-size: 100%;
+  background-color: #080f28;
+  background-color: #080f28;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  inline-size: 90%;
+  max-inline-size: 1280px;
+  block-size: 70px;
+  margin: 0 auto;
+}
+
+.navbar__logo {
+  text-decoration: none;
+}
+
+.navbar__logo-img {
+  inline-size: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.list-contact__item {
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+}
+
+.list-contact__item-link {
+  font-size: 2.3rem;
+  color: #4f6b95;
+  text-decoration: none;
+}
+
+.list-contact__item-link:hover {
+  color: #007aff;
+}
+
+.primary__button {
+  padding: 12px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 32px;
+  background-color: #007aff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primary__button:hover {
+  background-color: #007bffd8;
+}
+
+.course-main {
+  inline-size: 100%;
+  -webkit-margin-before: 140px;
+          margin-block-start: 140px;
+}
+
+.name-project {
+  inline-size: 90%;
+  max-inline-size: 1280px;
+  margin: 0 auto;
+  -webkit-padding-after: 12px;
+          padding-block-end: 12px;
+  font-size: 3rem;
+  color: #080f28;
+  text-align: center;
+  -webkit-border-after: 1px solid #737785;
+          border-block-end: 1px solid #737785;
+}
+
+.course {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  inline-size: 90%;
+  max-inline-size: 1280px;
+  margin: 70px auto 0;
+  padding: 20px 12px;
+  border-radius: 8px;
+  background-color: #141a32;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.course__img {
+  inline-size: 156px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.course-info {
+  -webkit-margin-before: 32px;
+          margin-block-start: 32px;
+  text-align: center;
+}
+
+.course-info__name {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #ffffff;
+  -webkit-margin-after: 4px;
+          margin-block-end: 4px;
+}
+
+.course-info__teac {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #007bffd8;
+  -webkit-margin-after: 16px;
+          margin-block-end: 16px;
+  text-decoration: none;
+}
+
+.course-info__teac:hover {
+  color: #007aff;
+}
+
+.course-info__desc {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #8da0bc;
+  -webkit-margin-after: 24px;
+          margin-block-end: 24px;
+}
+
+.course-info__btn {
+  display: inline-block;
+  padding: 8px 32px;
+  font-size: 1.8rem;
+}
+
+.secondary__button {
+  padding: 12px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 32px;
+  background-color: #3d4f91;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.secondary__button:hover {
+  background-color: #222e57;
+}
+
+.workshop-main {
+  inline-size: 100%;
+  margin-block: 70px;
+}
+
+.workshop-main__title {
+  inline-size: 90%;
+  max-inline-size: 1280px;
+  margin: 0 auto 38px;
+  font-size: 2.4rem;
+  color: #4f6b95;
+  text-align: center;
+}
+
+.workshop-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  inline-size: 90%;
+  max-inline-size: 1280px;
+  margin: 0 auto;
+}
+
+.workshop {
+  inline-size: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  background-image: url(../../assets/background-card.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-margin-before: 32px;
+          margin-block-start: 32px;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.workshop-info {
+  inline-size: 100%;
+  block-size: 50%;
+  padding: 20px;
+  background-color: rgba(20, 26, 50, 0.7);
+}
+
+.workshop-info__title {
+  font-size: 2.4rem;
+  color: #ffffff;
+  -webkit-margin-after: 8px;
+          margin-block-end: 8px;
+}
+
+.workshop-info__desc {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #ffffff;
+  -webkit-margin-after: 12px;
+          margin-block-end: 12px;
+}
+
+.workshop-info__btn {
+  display: inline-block;
+  padding: 8px 12px;
+}
+
+.footer-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  inline-size: 100%;
+  padding: 32px 0;
+  background-color: #181f36;
+}
+
+.footer__logo {
+  inline-size: 50px;
+  -webkit-margin-after: 12px;
+          margin-block-end: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.footer__text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.footer__text span {
+  font-size: 1.8rem;
+  color: #007aff;
+  text-transform: uppercase;
+}

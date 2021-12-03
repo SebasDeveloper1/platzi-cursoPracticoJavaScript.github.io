@@ -1,0 +1,15 @@
+.primary__button {
+    padding: 12px;
+    font-size: $font-size-md;
+    font-weight: 500;
+    color: $color-textprimary;
+    text-align: center;
+    border-radius: 32px;
+    background-color: $color-primary;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.primary__button:hover {
+    background-color: $color-primary-opacity;
+}

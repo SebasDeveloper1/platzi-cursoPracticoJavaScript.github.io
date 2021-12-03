@@ -1,0 +1,44 @@
+.header-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    inline-size: 100%;
+    background-color: $color-background;
+    background-color: $color-background;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    inline-size: 90%;
+    max-inline-size: 1280px;
+    block-size: 70px;
+    margin: 0 auto;
+}
+
+.navbar__logo {
+    text-decoration: none;
+}
+
+.navbar__logo-img {
+    inline-size: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.list-contact__item {
+    padding-inline-start: 15px;
+}
+
+.list-contact__item-link {
+    font-size: 2.3rem;
+    color: $color-textsecund;
+    text-decoration: none;
+}
+
+.list-contact__item-link:hover {
+    color: $color-primary;
+}
