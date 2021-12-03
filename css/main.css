@@ -227,7 +227,7 @@ body {
   inline-size: 100%;
   border-radius: 8px;
   overflow: hidden;
-  background-image: url(../../assets/background-card.jpg);
+  background-image: url(https://i.postimg.cc/tTyghXXm/background-card.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -241,7 +241,7 @@ body {
   inline-size: 100%;
   block-size: 50%;
   padding: 20px;
-  background-color: rgba(20, 26, 50, 0.7);
+  background-color: rgba(20, 26, 50, 0.6);
 }
 
 .workshop-info__title {
