@@ -47,6 +47,7 @@ body {
 
 .navbar__logo-img {
   inline-size: 150px;
+  block-size: auto;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -129,6 +130,7 @@ body {
 
 .course__img {
   inline-size: 156px;
+  block-size: auto;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -279,12 +281,13 @@ body {
       -ms-flex-align: center;
           align-items: center;
   inline-size: 100%;
-  padding: 32px 0;
+  padding: 32px 5%;
   background-color: #181f36;
 }
 
 .footer__logo {
-  inline-size: 50px;
+  inline-size: 30px;
+  block-size: auto;
   -webkit-margin-after: 12px;
           margin-block-end: 12px;
   -o-object-fit: cover;
@@ -297,6 +300,7 @@ body {
   font-size: 1.8rem;
   line-height: 1.5;
   color: #ffffff;
+  text-align: center;
 }
 
 .footer__text span {
