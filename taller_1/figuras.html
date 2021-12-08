@@ -63,11 +63,11 @@
                         </div>
                         <button onclick="calculateSquarePerimeter()" type="button"
                             class="option__form-button primary__button">
-                            Calcular el perímetro del cuadrado
+                            Calcular perímetro
                         </button>
                         <button onclick="calculateSquareArea()" type="button"
                             class="option__form-button secondary__button">
-                            Calcular el área del cuadrado
+                            Calcular área
                         </button>
                         <div class="result-section">
                             <div class="option-result-container">
@@ -108,11 +108,11 @@
                         </div>
                         <button onclick="calculateTrianglePerimeter()" type="button"
                             class="option__form-button primary__button">
-                            Calcular el perímetro del triángulo
+                            Calcular perímetro
                         </button>
                         <button onclick="calculateTriangleArea()" type="button"
                             class="option__form-button secondary__button">
-                            Calcular el área del triángulo
+                            Calcular área
                         </button>
                         <div class="result-section">
                             <div class="option-result-container">
@@ -143,11 +143,11 @@
                         </div>
                         <button onclick="calculateCirclePerimeter()" type="button"
                             class="option__form-button primary__button">
-                            Calcular el perímetro del círculo
+                            Calcular perímetro
                         </button>
                         <button onclick="calculateCircleArea()" type="button"
                             class="option__form-button secondary__button">
-                            Calcular el área del círculo
+                            Calcular área
                         </button>
                         <div class="result-section">
                             <div class="option-result-container">
@@ -157,6 +157,43 @@
                             <div class="option-result-container">
                                 <p class="option-result__title">Área:</p>
                                 <p id="CircleAreaResult" class="option__form-result"></p>
+                            </div>
+                        </div>
+                    </form>
+                </article>
+                <article class="option-container">
+                    <div class="option-head">
+                        <img src="./assets/triangle-icon.png" alt="Triangle icon" class="option__icon">
+                        <h2 class="option__title">Reto: Triángulo isósceles</h2>
+                    </div>
+                    <form action="/" class="option__form">
+                        <p class="option__form-title">Ingresa la medida de los lados del
+                            Triángulo.</p>
+                        <div class="form-group-input-container">
+                            <div class="form-group-input">
+                                <label for="inputIsoscelesTriangleL1" class="form-label option__form-label">Medida</label>
+                                <input id="inputIsoscelesTriangleL1" type="number"
+                                    class=" form-input option__form-input" placeholder="Lado 1" />
+                            </div>
+                            <div class="form-group-input">
+                                <label for="inputIsoscelesTriangleL2" class="form-label option__form-label">Medida</label>
+                                <input id="inputIsoscelesTriangleL2" type="number"
+                                    class=" form-input option__form-input" placeholder="Lado 2" />
+                            </div>
+                            <div class="form-group-input">
+                                <label for="inputIsoscelesTriangleBase" class="form-label option__form-label">Medida</label>
+                                <input id="inputIsoscelesTriangleBase" type="number"
+                                    class=" form-input option__form-input" placeholder="Base" />
+                            </div>
+                        </div>
+                        <button onclick="calculateTriangleHeight()" type="button"
+                            class="option__form-button secondary__button">
+                            Calcular altura
+                        </button>
+                        <div class="result-section">
+                            <div class="option-result-container">
+                                <p class="option-result__title">Altura:</p>
+                                <p id="TriangleIsoscelesHeightResult" class="option__form-result"></p>
                             </div>
                         </div>
                     </form>

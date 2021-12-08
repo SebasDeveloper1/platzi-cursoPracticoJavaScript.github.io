@@ -297,14 +297,14 @@ body {
 }
 
 .footer__text {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   color: #ffffff;
   text-align: center;
 }
 
 .footer__text span {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #007aff;
   text-transform: uppercase;
 }

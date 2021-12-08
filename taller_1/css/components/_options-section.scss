@@ -46,7 +46,7 @@
 
 .option-container {
     inline-size: 100%;
-    max-inline-size: 380px;
+    max-inline-size: 330px;
     margin-block-end: 32px;
     overflow: hidden;
     border-radius: 8px;
@@ -103,6 +103,11 @@
 
 .form-group-input {
     inline-size: 30%;
+    min-inline-size: 100px;
+}
+
+.form-input{
+    margin-block-end:4px;
 }
 
 .option__form-button {
@@ -137,6 +142,6 @@
 .option__form-result {
     inline-size: auto;
     margin-inline-start: 8px;
-    font-size: $font-size-lg;
+    font-size: $font-size-md;
     color: $color-background;
 }

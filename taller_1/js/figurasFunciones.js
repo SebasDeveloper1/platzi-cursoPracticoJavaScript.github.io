@@ -21,6 +21,27 @@ function triangleArea2(baseTriangle, triangleHeight) {
     return ((baseTriangle * triangleHeight) / 2);
 }
 
+function triangleHeight(side1, side2, baseTriangle) {
+    if (side1 === side2 && side1 !== baseTriangle) {
+        const height = calcHeight(side1, baseTriangle);
+        return height;
+    } else if (side1 === baseTriangle && side2 !== side1) {
+        const height = calcHeight(side1, side2);
+        return height;
+    } else if (side2 === baseTriangle && side2 !== side1) {
+        const height = calcHeight(side2, side1);
+        return height;
+    } else {
+        window.alert(`Las medidas ingresadas no corresponden a un triángulo isósceles \n ¡Inténtalo nuevamente!`);
+        return `Error`;
+    }
+}
+
+function calcHeight(side, baseTriangle) {
+    const height = Math.sqrt((side ** 2) - ((baseTriangle ** 2) / 4));
+    return height;
+}
+
 //Código del circulo
 function circleDiameter(circleRadio) {
     return (circleRadio * 2);
@@ -72,6 +93,18 @@ function calculateTriangleArea() {
     const area = triangleArea1(valueL1, valueL2, valueBase);
     const result = document.getElementById("TriangleAreaResult");
     result.innerHTML = area;
+}
+
+function calculateTriangleHeight() {
+    const inputL1 = document.getElementById("inputIsoscelesTriangleL1");
+    const inputL2 = document.getElementById("inputIsoscelesTriangleL2");
+    const inputBase = document.getElementById("inputIsoscelesTriangleBase");
+    const valueL1 = parseFloat(inputL1.value);
+    const valueL2 = parseFloat(inputL2.value);
+    const valueBase = parseFloat(inputBase.value);
+    const height = triangleHeight(valueL1, valueL2, valueBase);
+    const result = document.getElementById("TriangleIsoscelesHeightResult");
+    result.innerHTML = height;
 }
 
 function calculateCirclePerimeter() {

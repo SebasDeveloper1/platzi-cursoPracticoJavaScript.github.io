@@ -40,7 +40,8 @@ body {
 }
 
 .option-container {
-  inline-size: 30%;
+  inline-size: 50%;
+  min-inline-size: 380px;
 }
 
 .option__title {
@@ -56,5 +57,5 @@ body {
 }
 
 .option__form-result {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }

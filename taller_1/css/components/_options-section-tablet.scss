@@ -9,7 +9,8 @@
 }
 
 .option-container {
-    inline-size: 30%;
+    inline-size: 50%;
+    min-inline-size: 380px;
 }
 
 .option__title {
@@ -25,5 +26,5 @@
 }
 
 .option__form-result {
-    font-size: $font-size-lg2;
+    font-size: $font-size-lg;
 }

@@ -199,7 +199,7 @@ body {
 
 .option-container {
   inline-size: 100%;
-  max-inline-size: 380px;
+  max-inline-size: 330px;
   -webkit-margin-after: 32px;
           margin-block-end: 32px;
   overflow: hidden;
@@ -278,6 +278,12 @@ body {
 
 .form-group-input {
   inline-size: 30%;
+  min-inline-size: 100px;
+}
+
+.form-input {
+  -webkit-margin-after: 4px;
+          margin-block-end: 4px;
 }
 
 .option__form-button {
@@ -321,7 +327,7 @@ body {
   inline-size: auto;
   -webkit-margin-start: 8px;
           margin-inline-start: 8px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #080f28;
 }
 
@@ -356,14 +362,14 @@ body {
 }
 
 .footer__text {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   color: #ffffff;
   text-align: center;
 }
 
 .footer__text span {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #007aff;
   text-transform: uppercase;
 }
