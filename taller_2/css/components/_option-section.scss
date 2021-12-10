@@ -1,14 +1,13 @@
 @import "./label-card";
 @import "./input-card";
 @import "../../../css/components/primary-button";
-@import "../../../css/components/secondary-button";
 
-.options-main {
+.section-main {
     inline-size: 100%;
     margin-block: 32px;
 }
 
-.options-container {
+.section-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -17,20 +16,20 @@
     margin: 0 auto;
 }
 
-.option-container {
+.option-card {
     inline-size: 100%;
-    max-inline-size: 330px;
+    max-inline-size: 400px;
     margin-block-end: 32px;
     overflow: hidden;
     border-radius: 8px;
+    background-color: $color-background;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .option-head {
     inline-size: 100%;
-    padding: 12px 20px;
+    padding: 20px 20px 12px;
     text-align: center;
-    background-color: $color-background-light;
 }
 
 .option__icon {
@@ -53,7 +52,7 @@
     justify-content: center;
     align-items: center;
     inline-size: 100%;
-    padding: 12px 20px;
+    padding: 0 20px 20px;
     text-align: center;
 }
 
@@ -62,25 +61,20 @@
     font-size: $font-size-md;
     font-weight: 500;
     line-height: 1.5;
-    color: $color-textsecund;
+    color: $color-textfourth;
 }
 
 .form-group-input-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    inline-size: 100%;
     margin-block-end: 24px;
 }
 
 .form-group-input {
-    inline-size: 30%;
-    min-inline-size: 100px;
-}
-
-.form-input {
-    margin-block-end: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    inline-size: 100%;
+    margin-block-end: 16px;
 }
 
 .option__form-button {
@@ -95,11 +89,12 @@
     border-radius: 12px;
     padding: 0 12px;
     margin-block-start: 8px;
-    background-color: rgba($color-background-light, 0.1);
+    background-color: $color-background-light;
 }
 
 .option-result-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     inline-size: 100%;
@@ -107,14 +102,17 @@
 }
 
 .option-result__title {
-    font-size: $font-size-md;
-    font-weight: 600;
-    color: $color-textsecund;
+    font-size: $font-size-lg;
+    font-weight: 500;
+    color: $color-textfourth;
+    margin-block-end: 8px;
 }
 
 .option__form-result {
-    inline-size: auto;
-    margin-inline-start: 8px;
-    font-size: $font-size-md;
-    color: $color-background;
+    inline-size: 100%;
+    max-block-size: 400px;
+    font-size: $font-size-lg2;
+    font-weight: 600;
+    color: $color-textprimary;
+    text-align: center;
 }

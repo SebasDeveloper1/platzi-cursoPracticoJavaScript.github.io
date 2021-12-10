@@ -28,23 +28,35 @@
     inline-size: 100%;
     border-radius: 8px;
     overflow: hidden;
-    background-image: url(https://i.postimg.cc/tTyghXXm/background-card.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     margin-block-start: 32px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
+
+.workshop--one {
+    background-image: url(../../assets/background-card-one.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.workshop--two {
+    background-image: url(../../assets/background-card-two.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 .workshop-info {
     inline-size: 100%;
     block-size: 50%;
     padding: 20px;
-    background-color: rgba($color-background-light, 0.6);
+    background-color: rgba($color-background-light, 0.8);
 }
 
 .workshop-info__title {
-    font-size: $font-size-lg2;
+    font-size: $font-size-lg;
+    font-weight: 600;
     color: $color-textprimary;
     margin-block-end: 8px;
 }
@@ -59,4 +71,5 @@
 .workshop-info__btn {
     display: inline-block;
     padding: 8px 12px;
+    font-size: $font-size-sm;
 }

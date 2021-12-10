@@ -144,7 +144,7 @@ body {
 }
 
 .course-info__name {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: #ffffff;
   -webkit-margin-after: 4px;
@@ -229,25 +229,36 @@ body {
   inline-size: 100%;
   border-radius: 8px;
   overflow: hidden;
-  background-image: url(https://i.postimg.cc/tTyghXXm/background-card.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   -webkit-margin-before: 32px;
           margin-block-start: 32px;
   -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
           box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
+.workshop--one {
+  background-image: url(../../assets/background-card-one.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.workshop--two {
+  background-image: url(../../assets/background-card-two.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .workshop-info {
   inline-size: 100%;
   block-size: 50%;
   padding: 20px;
-  background-color: rgba(20, 26, 50, 0.6);
+  background-color: rgba(20, 26, 50, 0.8);
 }
 
 .workshop-info__title {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 600;
   color: #ffffff;
   -webkit-margin-after: 8px;
           margin-block-end: 8px;
@@ -264,6 +275,7 @@ body {
 .workshop-info__btn {
   display: inline-block;
   padding: 8px 12px;
+  font-size: 1.4rem;
 }
 
 .footer-main {
@@ -297,14 +309,14 @@ body {
 }
 
 .footer__text {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.5;
   color: #ffffff;
   text-align: center;
 }
 
 .footer__text span {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #007aff;
   text-transform: uppercase;
 }

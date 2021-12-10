@@ -1,0 +1,18 @@
+.form-input {
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    color: $color-textsecund;
+    font-size: $font-size-lg;
+    text-align: center;
+}
+
+.form-input::placeholder {
+    font-size: $font-size-lg;
+    color: $color-textsecund;
+}
+
+.form-input:focus {
+    border: 2px solid $color-primary;
+}

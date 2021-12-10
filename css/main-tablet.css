@@ -28,7 +28,7 @@ body {
 }
 
 .name-project {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 .course {
@@ -52,7 +52,7 @@ body {
 }
 
 .course-info__name {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .course-info__teac {
@@ -64,11 +64,11 @@ body {
 }
 
 .course-info__btn {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }
 
 .workshop-main__title {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .workshop-container {
