@@ -5,6 +5,7 @@
 ## Home: Ejercicios prácticos de JavaScript
 
 ### Pasos
+
 - 1: Definir maquetación HTML
 - 2: Implementar CSS y definir estilos
 - 3: Integrar la información del curso.
@@ -13,15 +14,29 @@
 ## Taller 1: Figuras geométricas
 
 ### Pasos
+
 - 1: Definir las fórmulas
 - 2: Implementar las formulas en JavaScript
 - 3: Crear Funciones
 - 4: Integrar JvaScript con HTML
+- 5: Implementar CSS y definir estilos
 
 ## Taller 2: Porcentajes y descuentos
 
 ### Pasos
+
 - 1: Definir las fórmulas
 - 2: Implementar las formulas en JavaScript
 - 3: Crear Funciones
 - 4: Integrar JvaScript con HTML
+- 5: Implementar CSS y definir estilos
+
+## Taller 3: Porcentajes y descuentos
+
+### Pasos
+
+- 1: Definir las fórmulas
+- 2: Implementar las formulas en JavaScript
+- 3: Crear Funciones
+- 4: Integrar JvaScript con HTML
+- 5: Implementar CSS y definir estilos

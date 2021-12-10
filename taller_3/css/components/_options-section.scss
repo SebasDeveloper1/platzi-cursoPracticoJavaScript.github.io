@@ -1,0 +1,117 @@
+@import "./label-card";
+@import "./input-card";
+@import "../../../css/components/primary-button";
+@import "../../../css/components/secondary-button";
+
+.options-main {
+    inline-size: 100%;
+    margin-block: 32px;
+}
+
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    inline-size: 90%;
+    max-inline-size: 1280px;
+    margin: 0 auto;
+}
+
+.option-container {
+    inline-size: 100%;
+    max-inline-size: 330px;
+    margin-block-end: 32px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.option-head {
+    inline-size: 100%;
+    padding: 12px 20px;
+    text-align: center;
+    background-color: $color-background-light;
+}
+
+.option__icon {
+    inline-size: 70px;
+    block-size: 70px;
+    margin-block-end: 4px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.option__title {
+    font-size: $font-size-lg;
+    font-weight: 600;
+    color: $color-textprimary;
+}
+
+.option__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    inline-size: 100%;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.option__form-title {
+    margin-block-end: 24px;
+    font-size: $font-size-md;
+    font-weight: 500;
+    line-height: 1.5;
+    color: $color-textsecund;
+}
+
+.form-group-input-container {
+    inline-size: 100%;
+    margin-block-end: 24px;
+}
+
+.form-group-input {
+    inline-size: 100%;
+}
+
+.form-input {
+    margin-block-end: 4px;
+}
+
+.option__form-button {
+    inline-size: 100%;
+    padding: 12px;
+    margin-block-end: 16px;
+    border: none;
+}
+
+.result-section {
+    inline-size: 100%;
+    border-radius: 12px;
+    padding: 0 12px;
+    margin-block-start: 8px;
+    background-color: rgba($color-background-light, 0.1);
+}
+
+.option-result-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    inline-size: 100%;
+    margin-block: 16px;
+}
+
+.option-result__title {
+    font-size: $font-size-md;
+    font-weight: 600;
+    color: $color-textsecund;
+}
+
+.option__form-result {
+    inline-size: auto;
+    margin-inline-start: 8px;
+    font-size: $font-size-lg2;
+    font-weight: 600;
+    color: $color-background;
+}

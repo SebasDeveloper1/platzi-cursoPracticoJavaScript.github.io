@@ -1,0 +1,23 @@
+.form-input {
+    inline-size: 100%;
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    border: 2px solid $color-primary-border;
+    color: $color-textsecund;
+    font-size: $font-size-lg;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form-input::placeholder {
+    inline-size: 100%;
+    font-size: $font-size-lg;
+    font-weight: 600;
+    color: $color-textsecund;
+}
+
+.form-input:focus {
+    border: 2px solid $color-primary;
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar__logo-img {
+  inline-size: 170px;
+}
+
+.list-contact__item {
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+}
+
+.list-contact__item-link {
+  font-size: 3rem;
+}
+
+.info-project__title {
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+  font-size: 4rem;
+}
+
+.info-project__desc {
+  -webkit-margin-after: 50px;
+          margin-block-end: 50px;
+  font-size: 1.8rem;
+}
+
+.option-container {
+  inline-size: 50%;
+  min-inline-size: 380px;
+}
+
+.option__title {
+  font-size: 1.8rem;
+}
+
+.option__form-title {
+  font-size: 1.6rem;
+}
+
+.option-result__title {
+  font-size: 1.6rem;
+}

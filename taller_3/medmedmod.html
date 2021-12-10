@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../css/normalice.css" />
+    <link rel="stylesheet" href="./css/main-medmedmod.css">
+    <link rel="stylesheet" href="./css/main-medmedmod-tablet.css" media="(min-width: 768px)">
+    <link rel="shortcut icon" href="../assets/logo.svg">
+    <title>Calculadora de media, mediana y moda | curso Practico JavaScript</title>
+</head>
+
+<body>
+    <header class="header-main">
+        <nav class="header-navbar">
+            <a href="../index.html" class="navbar__logo"><img src="https://i.postimg.cc/KYc8NZL4/logo-name.png"
+                    alt="Logo SebasDeveloper" class="navbar__logo-img"></a>
+            <ul class="navbar-list-contact">
+                <il class="list-contact__item"><a href="https://twitter.com/SebasDeveloper" target="_blank"
+                        rel="noopener" title="Twitter" class="list-contact__item-link fab fa-twitter"></a></il>
+                <il class="list-contact__item"><a href="https://www.linkedin.com/in/sebastian-pedroza-718092196/"
+                        target="_blank" rel="noopener" title="LinkedIn"
+                        class="list-contact__item-link fab fa-linkedin-in"></a></il>
+                <il class="list-contact__item"><a href="https://github.com/sebas-pedroza" target="_blank" rel="noopener"
+                        title="Github" class="list-contact__item-link fab fa-github-alt"></a></il>
+                <il class="list-contact__item"><a href="https://t.me/JSPedroza" target="_blank" rel="noopener"
+                        title="Telegram" class="list-contact__item-link fab fa-telegram-plane"></a></il>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="info-project-container">
+            <div class="button-return-container">
+                <a href="../index.html" class="primary__button info-project__back-btn"> <i
+                        class="fas fa-arrow-circle-left"></i> Volver al
+                    home</a>
+            </div>
+            <h1 class="info-project__title">Calculadora de media, mediana y moda</h1>
+            <p class="info-project__desc">Calcula el valor final de la media, mediana o moda de un grupo de nuemeros.
+            </p>
+        </section>
+
+        <section class="options-main">
+            <section class="options-container">
+                <article class="option-container">
+                    <div class="option-head">
+                        <img src="./assets/square-icon.png" alt="Average icon" class="option__icon">
+                        <h2 class="option__title">Media Aritmética</h2>
+                    </div>
+                    <form action="/" class="option__form">
+                        <p class="option__form-title">Ingresa el grupo de datos a calcular.</p>
+                        <div class="form-group-input-container">
+                            <div class="form-group-input">
+                                <label for="inputArithmeticAverage" class="form-label option__form-label">Grupo de datos
+                                    separados
+                                    por ( , )</label>
+                                <input id="inputArithmeticAverage" type="text" class=" form-input option__form-input"
+                                    placeholder="Ej: 1.5 , 1 , 3 , 5 ... " />
+                            </div>
+                        </div>
+                        <button onclick="calculateArithmeticAverage()" type="button"
+                            class="option__form-button primary__button">
+                            Calcular media aritmética
+                        </button>
+                        <div class="result-section">
+                            <div class="option-result-container">
+                                <p class="option-result__title">Resultado:</p>
+                                <p id="arithmeticAverageResult" class="option__form-result"></p>
+                            </div>
+                        </div>
+                    </form>
+                </article>
+
+                <article class="option-container">
+                    <div class="option-head">
+                        <img src="./assets/square-icon.png" alt="Geometric Mean icon" class="option__icon">
+                        <h2 class="option__title">Media Geométrica</h2>
+                    </div>
+                    <form action="/" class="option__form">
+                        <p class="option__form-title">Ingresa el grupo de datos a calcular.</p>
+                        <div class="form-group-input-container">
+                            <div class="form-group-input">
+                                <label for="inputGeometricMean" class="form-label option__form-label">Grupo de datos
+                                    separados
+                                    por ( , )</label>
+                                <input id="inputGeometricMean" type="text" class=" form-input option__form-input"
+                                    placeholder="Ej: 1.5 , 1 , 3 , 5 ... " />
+                            </div>
+                        </div>
+                        <button onclick="calculateGeometricMeanClick()" type="button"
+                            class="option__form-button primary__button">
+                            Calcular media geométrica
+                        </button>
+                        <div class="result-section">
+                            <div class="option-result-container">
+                                <p class="option-result__title">Resultado:</p>
+                                <p id="geometricMeanAverageResult" class="option__form-result"></p>
+                            </div>
+                        </div>
+                    </form>
+                </article>
+
+                <article class="option-container">
+                    <div class="option-head">
+                        <img src="./assets/square-icon.png" alt="Median icon" class="option__icon">
+                        <h2 class="option__title">Mediana</h2>
+                    </div>
+                    <form action="/" class="option__form">
+                        <p class="option__form-title">Ingresa el grupo de datos a calcular.</p>
+                        <div class="form-group-input-container">
+                            <div class="form-group-input">
+                                <label for="inputMedian" class="form-label option__form-label">Grupo de datos
+                                    separados
+                                    por ( , )</label>
+                                <input id="inputMedian" type="text" class=" form-input option__form-input"
+                                    placeholder="Ej: 1.5 , 1 , 3 , 5 ... " />
+                            </div>
+                        </div>
+                        <button onclick="calculateMedianClick()" type="button"
+                            class="option__form-button primary__button">
+                            Calcular mediana
+                        </button>
+                        <div class="result-section">
+                            <div class="option-result-container">
+                                <p class="option-result__title">Resultado:</p>
+                                <p id="medianResult" class="option__form-result"></p>
+                            </div>
+                        </div>
+                    </form>
+                </article>
+                <article class="option-container">
+                    <div class="option-head">
+                        <img src="./assets/square-icon.png" alt="Fashion icon" class="option__icon">
+                        <h2 class="option__title">Moda</h2>
+                    </div>
+                    <form action="/" class="option__form">
+                        <p class="option__form-title">Ingresa el grupo de datos a calcular.</p>
+                        <div class="form-group-input-container">
+                            <div class="form-group-input">
+                                <label for="inputFashion" class="form-label option__form-label">Grupo de datos
+                                    separados
+                                    por ( , )</label>
+                                <input id="inputFashion" type="text" class=" form-input option__form-input"
+                                    placeholder="Ej: 1.5 , 1 , 3 , 5 ... " />
+                            </div>
+                        </div>
+                        <button onclick="calculateFashionClick()" type="button"
+                            class="option__form-button primary__button">
+                            Calcular moda
+                        </button>
+                        <div class="result-section">
+                            <div class="option-result-container">
+                                <p class="option-result__title">Resultado:</p>
+                                <p id="fashionResult" class="option__form-result"></p>
+                            </div>
+                        </div>
+                    </form>
+                </article>
+            </section>
+        </section>
+
+    </main>
+    <!-- <footer class="footer-main">
+        <img src="../assets/logo.svg" alt="Logo sebasDeveloper" class="footer__logo">
+        <p class="footer__text">¡Hecho con el 💚 por Sebastian Pedroza</p>
+        <p class="footer__text">🚀de <span>latan</span> para el mundo!🌎</p>
+        <p class="footer__text">2021</p>
+    </footer> -->
+    <script src="https://kit.fontawesome.com/6fb1bacd2b.js" crossorigin="anonymous"></script>
+    <script src="./js/medmedmod.js"></script>
+</body>
+
+</html>
