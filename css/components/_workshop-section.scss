@@ -30,22 +30,22 @@
     overflow: hidden;
     margin-block-start: 32px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .workshop--one {
     background-image: url(https://i.postimg.cc/9MnXRcCD/background-card-one.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .workshop--two {
     background-image: url(https://i.postimg.cc/1tt538hx/background-card-two.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
+.workshop--three {
+    background-image: url(https://i.postimg.cc/Y9RTtjvf/background-card-three.jpg);
+}
 
 .workshop-info {
     inline-size: 100%;

@@ -78,7 +78,8 @@ body {
 }
 
 .workshop {
-  max-inline-size: 30%;
+  max-inline-size: 48%;
+  min-inline-size: 300px;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;

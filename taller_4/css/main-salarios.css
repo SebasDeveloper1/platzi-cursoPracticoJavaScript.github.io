@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  inline-size: 100%;
+  background-color: #080f28;
+  background-color: #080f28;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  inline-size: 90%;
+  max-inline-size: 1280px;
+  block-size: 70px;
+  margin: 0 auto;
+}
+
+.navbar__logo {
+  text-decoration: none;
+}
+
+.navbar__logo-img {
+  inline-size: 150px;
+  block-size: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.list-contact__item {
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+}
+
+.list-contact__item-link {
+  font-size: 2.3rem;
+  color: #4f6b95;
+  text-decoration: none;
+}
+
+.list-contact__item-link:hover {
+  color: #007aff;
+}
+
+.primary__button {
+  padding: 12px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 32px;
+  background-color: #007aff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primary__button:hover {
+  background-color: #007bffd8;
+}
+
+.info-project-container {
+  inline-size: 90%;
+  max-inline-size: 1280px;
+  margin: 120px auto 0;
+  text-align: center;
+}
+
+.info-project__back-btn {
+  display: inline-block;
+  -webkit-margin-after: 32px;
+          margin-block-end: 32px;
+}
+
+.info-project__title {
+  inline-size: 100%;
+  margin: 0 auto 16px;
+  font-size: 2.4rem;
+  color: #080f28;
+}
+
+.info-project__desc {
+  inline-size: 100%;
+  margin: 0 auto 32px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #4f6b95;
+}

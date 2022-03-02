@@ -1,0 +1,28 @@
+@import "../../../css/components/primary-button";
+
+.info-project-container {
+    inline-size: 90%;
+    max-inline-size: 1280px;
+    margin: 120px auto 0;
+    text-align: center;
+}
+
+.info-project__back-btn {
+    display: inline-block;
+    margin-block-end: 32px;
+}
+
+.info-project__title {
+    inline-size: 100%;
+    margin: 0 auto 16px;
+    font-size: $font-size-lg2;
+    color: $color-background;
+}
+
+.info-project__desc {
+    inline-size: 100%;
+    margin: 0 auto 32px;
+    font-size: $font-size-md;
+    font-weight: 500;
+    color: $color-textsecund;
+}

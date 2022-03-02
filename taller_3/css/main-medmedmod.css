@@ -349,3 +349,46 @@ body {
   font-weight: 600;
   color: #080f28;
 }
+
+.footer-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  inline-size: 100%;
+  padding: 32px 5%;
+  background-color: #181f36;
+}
+
+.footer__logo {
+  inline-size: 30px;
+  block-size: auto;
+  -webkit-margin-after: 12px;
+          margin-block-end: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.footer__text {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer__text span {
+  font-size: 1.4rem;
+  color: #007aff;
+  text-transform: uppercase;
+}
