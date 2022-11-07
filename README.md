@@ -1,4 +1,7 @@
-# platzi-cursoPracticoJavaScript💻🌎
+# platzi-> Curso Practico de JavaScript💻🌎
+
+🧮 Calculate elements such as the area of different geometric figures, the mean, the median and the mode of a set of values and the discount percentage of a product thanks to this website created in Platzi's practical JavaScript course
+
 Final project of the javascript practical course in [Platzi](https://platzi.com/cursos/javascript-practico/ "Platzi"). 💚💻
 
   <p align="center">
